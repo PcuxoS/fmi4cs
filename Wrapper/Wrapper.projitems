@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6dc8a0ad-6832-472d-8a3a-b1d4d1b05d8b</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Wrapper</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Interfaces.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MemoryManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Logger.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Types.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Wrapper.cs" />
+  </ItemGroup>
+</Project>
